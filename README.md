@@ -18,11 +18,7 @@ sudo ln -s /usr/local/ssl/macos-x86_64/lib/libssl.1.0.0.dylib /usr/local/lib/lib
 sudo ln -s /usr/local/ssl/macos-x86_64/lib/libcrypto.1.0.0.dylib /usr/local/lib/libcrypto.1.0.0.dylib
 ```
 ## Install Node (with Homebrew)
-If you don't already have Node installed, this needs to be done. The steps below first installs Homebrew and then Node through Homebrew.
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
-brew install node
-```
+If you don't already have Node installed, this needs to be done. Installer can be found here https://nodejs.org/en/download/
 ## Install Yeoman, Bower, Grunt, and Gulp
 You'll also need to install a number of command line tools that support ASP.NET core development. The command line templates use Yeoman, Bower, Grunt, and Gulp. You may already have many of these tools, but if not, the following step installs them all.
 ```
