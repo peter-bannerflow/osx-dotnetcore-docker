@@ -2,7 +2,7 @@
 ## Install OpenSSL
 OS X "El Capitan" (10.11) comes with 0.9.8 version of OpenSSL. .NET Core depends on versions >= 1.0.1 of OpenSSL. You can update the version by using Homebrew, MacPorts or manually. The important bit is that you need to have the required OpenSSL version on the path when you work with .NET Core. Below are the steps to do this manually since I couldn't get it to work with Homebrew.
 ```
-wget https://www.openssl.org/source/openssl-1.0.2j.tar.gz
+curl -O https://www.openssl.org/source/openssl-1.0.2j.tar.gz
 tar xzf openssl-1.0.2j.tar
 ./Configure darwin64-x86_64-cc shared enable-ec_nistp_64_gcc_128 no-ssl2 no-ssl3 no-comp --openssldir=/usr/local/ssl/macos-x86_64
 make depend
