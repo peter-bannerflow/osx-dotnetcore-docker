@@ -32,9 +32,9 @@ npm install -g generator-aspnet
 ## Build the Docker container
 The Dockerfile created by the ASP.NET template can be built be the following step.
 ```
-docker build -t weather-service .
+docker build -t my-service .
 ```
 ## Run the container
 ```
-docker run -d -p 8080:5000 --name weather-service
+docker run -d -p 8080:5000 --name my-service
 ```
