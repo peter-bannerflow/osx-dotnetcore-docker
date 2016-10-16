@@ -27,3 +27,10 @@ Once you've installed the core tools, you need to install the yeoman ASP.NET tem
 ```
 npm install -g generator-aspnet
 ```
+## Build the Docker container
+The Dockerfile created by the ASP.NET template can be built be the following step.
+```
+docker build -t weather-service .
+```
+## Run the container
+docker run -d -p 8080:5000 --name weather-service
