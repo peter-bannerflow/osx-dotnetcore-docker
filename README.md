@@ -35,4 +35,6 @@ The Dockerfile created by the ASP.NET template can be built be the following ste
 docker build -t weather-service .
 ```
 ## Run the container
+```
 docker run -d -p 8080:5000 --name weather-service
+```
