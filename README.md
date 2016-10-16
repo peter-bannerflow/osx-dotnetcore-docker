@@ -1,4 +1,10 @@
 # osx-dotnetcore-docker
+## Install .NET Core 
+Installer can be found here http://dot.net 
+
+## Install Docker engine
+Installer can be found here http://www.docker.com/products/docker
+
 ## Install OpenSSL
 OS X "El Capitan" (10.11) comes with 0.9.8 version of OpenSSL. .NET Core depends on versions >= 1.0.1 of OpenSSL. You can update the version by using Homebrew, MacPorts or manually. The important bit is that you need to have the required OpenSSL version on the path when you work with .NET Core. Below are the steps to do this manually since I couldn't get it to work with Homebrew.
 ```
